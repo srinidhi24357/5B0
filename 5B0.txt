@@ -1,0 +1,5 @@
+Engineering students often spend a lot of money on textbooks, which are used only for a short time. After the semester, these books are no longer needed, but there is no proper way to sell or reuse them. Similarly, new students look for cheaper used books but face difficulty in finding them.
+
+Currently, students rely on word-of-mouth or social media to buy and sell books, which is unorganized and unreliable. There is no single platform to connect buyers and sellers of engineering books.
+
+There is a need for a simple, centralized system where students can list, search, and exchange used engineering books easily. This system should make the process more organized, cost-effective, and user-friendly.
