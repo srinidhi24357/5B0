@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tech Event Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef2f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      width: 350px;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 25px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #555;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px 10px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    button {
+      margin-top: 22px;
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Tech Event Registration</h2>
+    <form action="#" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="example@domain.com" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="10-digit phone number" pattern="[0-9]{10}" required />
+
+      <label for="department">Department</label>
+      <select id="department" name="department" required>
+        <option value="" disabled selected>Select department</option>
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>Mechanical</option>
+        <option>Civil</option>
+        <option>Electrical</option>
+        <option>Other</option>
+      </select>
+
+      <label for="year">Year of Study</label>
+      <select id="year" name="year" required>
+        <option value="" disabled selected>Select year</option>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+        <option>3rd Year</option>
+        <option>4th Year</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
